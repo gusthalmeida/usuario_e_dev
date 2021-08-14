@@ -52,11 +52,12 @@ h2{
     text-align: center;
     margin: 1em;
     font-family: 'Oswald', sans-serif;
+    font-size: 1.7vw;
 }
 
 #whois{
     float: right;
-    font-size: 1.4em;
+    font-size: 1.7vw;
     text-align: justify;
     margin: 1em 2em auto 0.4em;
 }
@@ -75,7 +76,7 @@ hr{
 }
 
 #oquefaz p{
-    font-size: 1.4em;
+    font-size: 1.7vw;
     margin: 2.5em 25em 5em 0.4em;
 }
 
@@ -85,7 +86,7 @@ hr{
 }
 
 #sobre p{
-    font-size: 1.4em;
+    font-size: 1.7vw;
     text-align: justify;
     margin-left: 15em;
     margin-bottom: 2em;
@@ -99,7 +100,7 @@ hr{
 #sobre img{
     float: left;
     color: #E38D0C;
-    height: 6em;
+    height: 8vw;
     margin-left: 10em;
     margin-bottom: 0.2em;
 }
@@ -112,4 +113,5 @@ footer{
 
 footer p{
     text-align: center;
+    font-size: 1.2vw;
 }
