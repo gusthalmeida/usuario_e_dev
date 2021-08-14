@@ -59,7 +59,7 @@ h2{
     float: right;
     font-size: 1.4vw;
     text-align: justify;
-    margin: 1em 2em auto 0.4em;
+    margin: 3em 2em auto 0.4em;
 }
 
 #whois img{
@@ -74,6 +74,128 @@ hr{
     border-top: 0.1em solid orange;
     width: 50%;
     margin-left: 25%;
+    margin-bottom: 5vw;
+    margin-top: 1vw;
+}
+
+#oquefaz p{
+    font-size: 1.4vw;
+    margin: 5em 25em 5em 0.4em;
+}
+
+#oquefaz img{
+    float: right;
+    margin-right: 5em;
+    height: 13vw;
+}
+
+#sobre p{
+    font-size: 1.4vw;
+    text-align: justify;
+    margin: 3em 5em 2em 15em;
+}
+
+#sobre a{
+    color: #E38D0C;
+}
+
+#sobre img{
+    float: left;
+    color: #E38D0C;
+    height: 8vw;
+    margin-left: 10em;
+    margin-bottom: 0.3em;
+}
+
+footer{
+    font-family: 'Oswald', sans-serif;
+    background-color: #E38D0C;
+    width: 100%;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.2vw;
+    margin-top: 6vw;
+}
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #E38D0C;
+}
+
+header h1{
+    text-align: center;
+    margin-left: 5em;
+    font-family: 'Style Script', cursive;
+}
+
+header img{
+    float: right;
+    height: 100px;
+    margin-top: 0.1em;
+    transform: scaleX(-1);
+    transition-delay: 4s;
+    transition-duration: 0.3s;
+}
+
+nav{
+    background-color: #F1B356;
+    padding: 0.6em;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0.6em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+nav a:hover{
+    color: white;
+    background-color: rgb(202, 102, 8);
+    padding: 0.6em;
+    text-decoration: 0.2em underline;
+    transition-duration: 0.4s;
+}
+
+h2{
+    text-align: center;
+    margin: 1em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.7vw;
+}
+
+#whois{
+    float: right;
+    font-size: 1.4vw;
+    text-align: justify;
+    margin: 3em 2em auto 0.4em;
+}
+
+#whois img{
+    height: 6em;
+    width: 9vw;
+    float: left;
+    margin-bottom: 5em;
+    margin-right: 5em;
+}
+
+hr{
+    border-top: 0.1em solid orange;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 5vw;
+    margin-top: 1vw;
 }
 
 #oquefaz p{
