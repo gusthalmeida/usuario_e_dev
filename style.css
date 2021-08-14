@@ -57,13 +57,14 @@ h2{
 
 #whois{
     float: right;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     text-align: justify;
     margin: 1em 2em auto 0.4em;
 }
 
 #whois img{
-    height: 5em;
+    height: 6em;
+    width: 9vw;
     float: left;
     margin-bottom: 5em;
     margin-right: 5em;
@@ -76,21 +77,20 @@ hr{
 }
 
 #oquefaz p{
-    font-size: 1.5vw;
-    margin: 2.5em 25em 5em 0.4em;
+    font-size: 1.4vw;
+    margin: 5em 25em 5em 0.4em;
 }
 
 #oquefaz img{
     float: right;
     margin-right: 5em;
+    height: 13vw;
 }
 
 #sobre p{
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     text-align: justify;
-    margin-left: 15em;
-    margin-bottom: 2em;
-    margin-right: 5em;
+    margin: 3em 5em 2em 15em;
 }
 
 #sobre a{
@@ -114,5 +114,5 @@ footer{
 footer p{
     text-align: center;
     font-size: 1.2vw;
-    margin-top: 5vw;
+    margin-top: 6vw;
 }
