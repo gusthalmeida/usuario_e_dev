@@ -105,7 +105,11 @@ hr{
 }
 
 footer{
-    text-align: center;
     font-family: 'Oswald', sans-serif;
     background-color: #E38D0C;
+    width: 100%;
+}
+
+footer p{
+    text-align: center;
 }
