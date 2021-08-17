@@ -14,6 +14,7 @@ header{
 
 header h1{
     text-align: center;
+    margin-right: 5em;
     margin-left: 5em;
     font-family: 'Style Script', cursive;
 }
@@ -23,7 +24,7 @@ header img{
     height: 100px;
     margin-top: 0.1em;
     transform: scaleX(-1);
-    transition-delay: 4s;
+    transition-delay: 1s;
     transition-duration: 0.3s;
 }
 
@@ -55,14 +56,14 @@ h2{
     font-size: 1.7vw;
 }
 
-#whois{
+.img-left-orientation{
     float: right;
     font-size: 1.4vw;
     text-align: justify;
     margin: 3em 2em auto 0.4em;
 }
 
-#whois img{
+.img-left-orientation img{
     height: 6em;
     width: 9vw;
     float: left;
@@ -70,45 +71,41 @@ h2{
     margin-right: 5em;
 }
 
-#divisoria{
-    margin-top: 5vw;
-}
-
 hr{
     border-top: 0.1em solid orange;
     width: 50%;
     margin-left: 25%;
-    margin-bottom: 5vw;
-    margin-top: 1vw;
+    position: relative;
 }
 
-#oquefaz p{
+.img-right-orientation p{
     font-size: 1.4vw;
     margin: 5em 25em 5em 0.4em;
 }
 
-#oquefaz img{
+.img-right-orientation img{
     float: right;
     margin-right: 5em;
     height: 13vw;
 }
 
-#sobre p{
+.github p{
     font-size: 1.4vw;
     text-align: justify;
     margin: 3em 5em 2em 15em;
 }
 
-#sobre a{
+.github a{
     color: #E38D0C;
 }
 
-#sobre img{
+.github img{
     float: left;
     color: #E38D0C;
     height: 8vw;
     margin-left: 10em;
     margin-bottom: 0.3em;
+    margin-right: 1em;
 }
 
 footer{
